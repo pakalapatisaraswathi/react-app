@@ -5,7 +5,7 @@ function Orders() {
   let allOrders = orders.map((item, index) => (
     <div key={index}>
       <p style={{ color: "orangered" }}>Date of Place Order: {item.date}</p>
-      <p style={{ color: "greenyellow" }}>
+      <p style={{ color: "blue" }}>
         Final Price: &#8377;{item.finalPrice}
       </p>
       <p>Order Items: </p>
